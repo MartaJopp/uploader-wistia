@@ -33,7 +33,7 @@ In a terminal window, navigate to the project folder once saved on your computer
 
 ### Completed Features
 A high level list of features completed:
-- [ ] Click an upload button, select file, progress bar is shown while loading.
-- [ ] The video you just uploaded appears in the embedded video player.
-- [ ] Utilized a component to accomplish the task.
+- [x] Click an upload button, select file, progress bar is shown while loading.
+- [x] The video you just uploaded appears in the embedded video player.
+- [x] Utilized a component to accomplish the task.
 - [ ] Unit tests for the component.
