@@ -2,7 +2,7 @@
 This is a basic file uploader application utilizing the basic Blueimp plugin to upload videos to Wistia. Using a component, the file uploader can be reused throughout the application.
 
 ## Live Example
-
+![Link to Live Demo](https://ancient-river-99443.herokuapp.com/)
 
 ## Built With
 - Express
