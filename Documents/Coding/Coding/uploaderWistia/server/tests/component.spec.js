@@ -11,8 +11,10 @@ describe('Component: videoUploader', function () {
             $compile(element)(scope);
         });
     }));
-
     it('should render the video uploader', function () {
         expect(angular.element('#videoUploader'))
+    });
+    it('should upload a video when progress is complete and class is added', function () {
+        expect(angular.element('#player'))
     });
 });

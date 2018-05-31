@@ -1,6 +1,9 @@
 # Wistia File Uploader
 This is a basic file uploader application utilizing the basic Blueimp plugin to upload videos to Wistia. Using a component, the file uploader can be reused throughout the application.
 
+## Live Example
+
+
 ## Built With
 -Express
 -AngularJS
@@ -30,10 +33,11 @@ In a terminal window, navigate to the project folder once saved on your computer
 - Run `npm start`
 
 ## Screen Shot
+![Screenshot](server/public/images/uploaderScreenshot.png)
 
 ### Completed Features
 A high level list of features completed:
 - [x] Click an upload button, select file, progress bar is shown while loading.
 - [x] The video you just uploaded appears in the embedded video player.
 - [x] Utilized a component to accomplish the task.
-- [ ] Unit tests for the component.
+- [x] Unit tests for the component.

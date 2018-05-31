@@ -1,21 +1,19 @@
 <div id="videoUploader">
-<div class="jumbotron">
-<h1>{{$ctrl.message}}</h1>
-    <span class="btn btn-success fileinput-button" ng-class="{disabled: disabled}">
-        <i class="glyphicon glyphicon-plus"></i>
-        <span>Add Video</span>
-        <form enctype="multipart/form-data" action="https://upload.wistia.com" method="post">
-            <input id="fileupload" type="file" name="files">
-        </form>
-    
-    </span>
+    <div class="jumbotron">
+        <h1>{{$ctrl.message}}</h1>
+        <h3 ng-show="$ctrl.showError">{{$ctrl.errorMessage}}</h3>
+        <span class="btn btn-success fileinput-button" ng-class="{disabled: disabled}">
+            <i class="glyphicon glyphicon-plus"></i>
+            <span>Add Video</span>
+            <form enctype="multipart/form-data" action="https://upload.wistia.com" method="post">
+                <input id="fileupload" type="file" name="files">
+            </form>
+        </span>
+    </div>
+    <!-- The global progress bar -->
+    <div id="progress" class="progress">
+        <div class="progress-bar progress-bar-success"></div>
+    </div>
+    <div id="player" class="wistia_embed" style="height:349px;width:620px">&nbsp;</div>
 </div>
-
-
-<!-- The global progress bar -->
-<div id="progress" class="progress">
-    <div class="progress-bar progress-bar-success"></div>
-</div>
-
-<div id="player" class="wistia_embed" style="height:349px;width:620px">&nbsp;</div>
-</div>
+<div>
