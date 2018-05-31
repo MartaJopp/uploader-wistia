@@ -5,13 +5,13 @@ This is a basic file uploader application utilizing the basic Blueimp plugin to 
 
 
 ## Built With
--Express
--AngularJS
--Node.JS
--Blueimp plugin
--Wistia API 
--Wistia embedded video player
--Bootstrap for Styling
+- Express
+- AngularJS
+- Node.JS
+- Blueimp plugin
+- Wistia API 
+- Wistia embedded video player
+- Bootstrap for Styling
 
 ## Getting Started
 
