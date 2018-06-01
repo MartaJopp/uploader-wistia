@@ -3,7 +3,7 @@ This is a basic file uploader application utilizing the basic Blueimp plugin to 
 
 ## Live Example
 
-![Link to live demo](https://ancient-river-99443.herokuapp.com/)
+[Link to live demo](https://ancient-river-99443.herokuapp.com/)
 
 ## Built With
 - Express
