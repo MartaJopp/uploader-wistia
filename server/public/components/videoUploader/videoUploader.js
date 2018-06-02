@@ -12,7 +12,7 @@ angular.module('videoUploaderApp', [])
             //wistia api info
             vm.wistia = {
                 url: 'https://upload.wistia.com',
-                api: '9a5da9c8c45ebf9d1c0da58d51de2b01666572b4de0d8f01ba173c9e9a59b023'
+                api: ''
             };
 
             //key pair value to meet multipart form data requirements

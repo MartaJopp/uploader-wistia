@@ -17,4 +17,7 @@ describe('Component: videoUploader', function () {
     it('should upload a video when progress is complete and class is added', function () {
         expect(angular.element('#player'))
     });
+    it('should upload a video when progress is complete and class is added', function () {
+        expect(angular.element('#player'))
+    });
 });
